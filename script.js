@@ -31,3 +31,6 @@ console.log(expirationField)
 const submitButton = document.getElementById("submit-button")
 console.log(submitButton)
 
+submitButton.addEventListener('click', function (event) {
+    console.log('input captured')
+  })
