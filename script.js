@@ -1,3 +1,6 @@
+let formIsValid
+
+
 console.log('Add validation!');
 // name
 const nameField = document.getElementById("name-field")
@@ -33,4 +36,5 @@ console.log(submitButton)
 
 submitButton.addEventListener('click', function (event) {
     console.log('input captured')
+    // event.preventDefault()
   })
