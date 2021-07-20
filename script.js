@@ -5,6 +5,11 @@ console.log('Add validation!');
 // name
 const nameField = document.getElementById("name-field")
 console.log(nameField)
+let nameIsValid 
+  // if (nameIsValid)
+  // return true
+  // else
+  // return false
 
 // car
 const carField = document.getElementById("car-field")
